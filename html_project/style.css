@@ -1,0 +1,93 @@
+body {
+    background-image: url("background.jpg");
+    background-color: #363434;
+    background-repeat: no-repeat;
+    background-size: cover;
+}  
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1;
+    display: inline-flex;
+  margin-left: 60%;
+  font-size: xx-large;
+}
+ul a:hover{
+    color: aliceblue;
+    cursor: pointer;
+    transition: .3s;
+}
+ 
+.home {
+    margin-left: 30px;
+}
+.about {
+    margin-left: 30px;
+}
+.work {
+    margin-left: 30px;
+}
+.resume {
+    margin-left: 30px;
+}
+.contact {
+    margin-left: 30px;
+}
+.name{
+    margin-left: 86%;
+    margin-top: 10%;
+    text-decoration: underline;
+    -webkit-text-fill-color: blueviolet;
+}
+.prename{
+    margin-left: 85%;
+    text-decoration: underline;
+    -webkit-text-fill-color:blueviolet;
+}
+
+.login{
+    position: absolute;
+    left: 93%;
+    border:none;
+    outline: 0cm;
+    background: rgb(255, 255, 255);
+    padding: 9px 9px;
+    border-radius:50px;
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+    
+}
+.cancel{
+    position: absolute;
+    left: 88%;
+    border:none;
+    outline: 0cm;
+    background: rgb(255, 255, 255);
+    padding: 9px 13px;
+    border-radius:50px;
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+    
+}
+.video{
+    position: absolute;
+    left: 73%;
+}
+.audio{
+    position: absolute;
+    left: 85%;
+    top:90%;
+}
+.login:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.cancel:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
